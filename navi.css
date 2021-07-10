@@ -1,0 +1,75 @@
+body{
+   background: url(gym6.jpg) ;
+   background-repeat: no-repeat;
+   overflow: auto;
+   background-position: center;
+   padding-top: 400px;
+}
+header{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 40px;
+  padding-top: 20px;
+  margin-left: 200px;
+  text-transform: uppercase;
+  color: red;
+  border: 2px solid black;
+  background-color: black;
+  opacity: 0.5
+}
+.top_right{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 20px;
+  list-style: none;
+  text-decoration: none;
+  padding-top: 20px;
+}
+li a{
+	position: sticky;
+	text-transform: uppercase;
+	list-style: none;
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	font-size: 15px;
+	margin: 10px;
+}
+a:hover{
+	cursor: pointer;
+	color:red;
+	text-decoration: underline;
+}
+a:active{
+	border:none;
+	background-color: black;
+	color:white;
+}
+
+ul div li{
+	display: inline-block;
+}
+.video1{
+	padding-left: 10px;
+	float:left;
+}
+.video2{
+	float:right;
+	display: inline-block;
+}
+.video3{
+	float: right;
+	display: inline-block;
+}
+.video4{
+	float: right;
+	display: inline-block;
+}
+.active:hover, .active {
+	color: red;
+	text-decoration: underline;
+}
+
+
